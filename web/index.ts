@@ -148,7 +148,11 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-  { text: "Helpninja", value: "https://images.helpninja.com/logo.svg" },
+  {
+    text: "Helpninja",
+    value:
+      "https://trello-attachments.s3.amazonaws.com/5ae965d1e2f37ad319a3e30a/5eb419e5625d7e11eaaa17e8/f33fdc2bb8d019ae33a5885ca6452861/logo_blue.svg",
+  },
   {
     text: "Next.js",
     value:
@@ -163,9 +167,9 @@ const imageLightOptions: DropdownOption[] = [
 
 const imageDarkOptions: DropdownOption[] = [
   {
-    text: "Vercel",
+    text: "Helpninja",
     value:
-      "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg",
+      "https://trello-attachments.s3.amazonaws.com/5ae965d1e2f37ad319a3e30a/5eb419e5625d7e11eaaa17e8/07ca3e56e0608d72b96e04c9a4af1846/logo_white.svg",
   },
   {
     text: "Next.js",
